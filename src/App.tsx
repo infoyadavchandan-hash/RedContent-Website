@@ -169,7 +169,7 @@ const Navbar = () => {
     { name: 'Contact', href: '#contact' },
   ];
 
-  const logoUrl = "https://lh3.googleusercontent.com/d/1QVC4p_71_AbSeDeosZtgoJ0SOCgljK80";
+  const logoUrl = "https://lh3.googleusercontent.com/d/1Mgwf7ipzHSBjAQKJxxmEB1pwxVGykmn-";
 
   return (
     <nav className={cn(
@@ -180,7 +180,7 @@ const Navbar = () => {
         <a href="#home" className="flex items-center gap-2 group">
           <img 
             src={logoUrl} 
-            alt="RedContant Digital Logo" 
+            alt="RedContent Digital Logo" 
             className="h-12 md:h-14 w-auto object-contain transition-all duration-500 group-hover:scale-105 group-hover:drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]"
             referrerPolicy="no-referrer"
             onError={(e) => {
@@ -190,7 +190,7 @@ const Navbar = () => {
               if (parent) {
                 const span = document.createElement('span');
                 span.className = 'text-2xl font-display font-bold tracking-tighter text-white';
-                span.innerText = 'REDCONTANT';
+                span.innerText = 'REDCONTENT';
                 parent.appendChild(span);
               }
             }}
@@ -258,7 +258,7 @@ const Navbar = () => {
 };
 
 export default function App() {
-  const logoUrl = "https://lh3.googleusercontent.com/d/1QVC4p_71_AbSeDeosZtgoJ0SOCgljK80";
+  const logoUrl = "https://lh3.googleusercontent.com/d/1Mgwf7ipzHSBjAQKJxxmEB1pwxVGykmn-";
   const { scrollYProgress } = useScroll();
   const heroOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
   const heroScale = useTransform(scrollYProgress, [0, 0.2], [1, 0.95]);
@@ -377,7 +377,7 @@ export default function App() {
               <div>
                 <h3 className="text-4xl font-display font-bold mb-6">Leader in Content Protection</h3>
                 <p className="text-xl text-gray-400 leading-relaxed max-w-2xl">
-                  RedContant Digital is at the forefront of copyright enforcement. We understand the intrinsic value of your intellectual property and provide a shield against unauthorized use in the modern digital world.
+                  RedContent Digital is at the forefront of copyright enforcement. We understand the intrinsic value of your intellectual property and provide a shield against unauthorized use in the modern digital world.
                 </p>
               </div>
               <div className="flex items-center gap-4 pt-8">
@@ -704,7 +704,7 @@ export default function App() {
                 <a href="https://www.youtube.com/channel/UC0pGu1s_vTAarIvRbNOUTDA" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
                   <Youtube size={24} />
                 </a>
-                <a href="https://www.instagram.com/redcontantdigital/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
+                <a href="https://www.instagram.com/redcontentdigital/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
                   <Instagram size={24} />
                 </a>
               </div>
@@ -752,7 +752,7 @@ export default function App() {
             <div className="max-w-sm">
               <img 
                 src={logoUrl} 
-                alt="RedContant Digital Logo" 
+                alt="RedContent Digital Logo" 
                 className="h-14 w-auto object-contain mb-8"
                 referrerPolicy="no-referrer"
               />
@@ -782,14 +782,14 @@ export default function App() {
                 <h4 className="text-xs font-bold uppercase tracking-widest text-white">Social</h4>
                 <div className="flex flex-col gap-4 text-sm text-gray-500">
                   <a href="https://www.youtube.com/channel/UC0pGu1s_vTAarIvRbNOUTDA" className="hover:text-white transition-colors">YouTube</a>
-                  <a href="https://www.instagram.com/redcontantdigital/" className="hover:text-white transition-colors">Instagram</a>
+                  <a href="https://www.instagram.com/redcontentdigital/" className="hover:text-white transition-colors">Instagram</a>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="pt-20 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold uppercase tracking-[0.3em] text-gray-600">
-            <div>© {new Date().getFullYear()} RedContant Digital. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} RedContent Digital. All rights reserved.</div>
             <div className="flex gap-8">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
